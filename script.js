@@ -34,6 +34,8 @@ var checkRecipe = function() {
   } 
 }
 
+checkRecipe ();
+
 
   $(".alc").click(function(event) {
     var elem = $(this);
