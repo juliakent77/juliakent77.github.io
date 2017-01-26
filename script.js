@@ -48,23 +48,8 @@
 
 // ]
 
-// // Random Int function
-// var getRandomInt = function(min, max) {
-//   return Math.floor(Math.random() * (max - min + 1)) + min;
-// }
+// [{name:'Old Fashioned', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'sour', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'} {name:'Pear Martini', image:'src="Images/drank.jpg"', drinkType: 'vodka', flavor: 'fruity', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'} {name:'Dark and Stormy', image:'src="Images/drank.jpg"', drinkType: 'rum', flavor: 'botanical', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'} {name:'Paloma', image:'src="Images/drank.jpg"', drinkType: 'tequila', flavor: 'fruity', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'} {name:'Peach Bellini', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'fruity', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'} {name:'Gin Fizz', image:'src="Images/drank.jpg"', drinkType: 'gin', flavor: 'botnaical', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'}]
 
-// var generateComputerChoice = function() {
-//   var randNum = getRandomInt(1, 3);
-//   if(randNum === 1) {
-//     computerChoice = 'rock';
-//   } else if (randNum === 2) {
-//     computerChoice = 'paper';
-//   } else {
-//     computerChoice = 'scissors';
-//   }
-
-//   checkWinner();
-// }
 
 
 $(".alc").click(function(event) {
@@ -77,6 +62,46 @@ $(".alc").click(function(event) {
 
 $(".taste").click(function(event) {
     var elem = $(this);
-    var flavor = elem.attr('flavor');
-    console.log(flavor);
+    var flavorType = elem.attr('flavor');
+
+    localStorage.setItem('flavorType', flavorType);
+    window.location = 'recipe.html'
 });
+
+$( "#result" ).load( "recipe.html", function() {
+  alert( "Load was performed." );
+});
+
+// $('.recipeContainer').load(function(event) {
+//   alert( "Load was performed." );
+//   // event.preventDefault();
+//   // var elem = $(event.target);
+
+//   // // var todo = elem.todoInput.val();
+//   // var todo = $("input:text").val();
+
+//   // var li = $(add.('li'));
+//   // var input = $(add.('input'));
+//   // var p = $(add.('p'));
+//   // var deleteButton = $(add.('button'));
+//   // var clearDiv = $(add.('div'));
+
+//   // li.className = $('fadeIn');
+//   // input.type = $('checkbox');
+//   // p.innerHTML = $(todo);
+//   // deleteButton.innerHTML = $('Delete');
+//   // clearDiv.className = $('clearfix');
+
+//   // $(deleteButton).click(function(event) {
+//   //   $(elem).parent().remove();
+//   // };
+
+//   // $('li').append(input);
+//   // $('li').append(p);
+//   // $('li').append(deleteButton);
+//   // $('li').append(clearDiv);
+
+//   // $('todoList').append(li);
+
+//   // elem.todoInput.value = '';
+// });

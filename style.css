@@ -136,3 +136,35 @@ small {
   letter-spacing: 2px;
   color: #BCAA96;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 4%;
+}
+
+li {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #13358C;
+  list-style-type: disc;
+}
+
+.recipeHeader {
+  font-size: 14px;
+}
+
+.musicButton {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #C9B9A9;
+  color: #F9F6F2;
+  border: none;
+  margin-top: 30px;
+}
