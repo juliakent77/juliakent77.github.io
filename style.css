@@ -168,3 +168,8 @@ li {
   border: none;
   margin-top: 30px;
 }
+
+.musicButton:hover {
+    background-color: #C9B9A9;
+    color: #F9F6F2;
+}
