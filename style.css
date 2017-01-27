@@ -53,6 +53,7 @@ hr {
   display: block;
   border: 0;
   border-top: .5px solid #13358C;
+  margin-top: 2px;
 }
 
 h5 {
@@ -173,3 +174,17 @@ li {
     background-color: #C9B9A9;
     color: #F9F6F2;
 }
+
+.drinkTitle {
+  font-family: 'Unna', serif;
+}
+
+/*.spiritsList {
+  display: inline;
+}
+
+.flavorList {
+  display: inline;
+}*/
+
+/*font-family: 'Unna', serif;*/
