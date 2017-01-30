@@ -62,7 +62,7 @@ h5 {
 }
 
 .logo {
-  width: 30%;
+  width: 33%;
   max-width: 150px;
 }
 
@@ -97,7 +97,6 @@ button {
   font-weight: 600;
   padding: 20px;
 /*  width: 80%*/
-  margin-left: 10px;
   margin-right: 10px;
   background-color: #F9F6F2;
   color: #13358C;
@@ -164,7 +163,7 @@ li {
   letter-spacing: 2px;
   font-weight: 600;
   padding: 20px;
-  margin-left: 10px;
+/*  margin-left: 10px;*/
   margin-right: 10px;
   background-color: #C9B9A9;
   color: #F9F6F2;
