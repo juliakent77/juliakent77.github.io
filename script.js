@@ -1,4 +1,3 @@
-
 var drinkRecipes = [
 {name:'OLD FASHIONED', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'sour', strength:'xxx', ingredients: ['1 scant teaspoon simple syrup', '2 dashes Angostura Bitters, plus more to taste', '1 medium sized slice orange peel, including pith', '2 ounces good-quality rye or bourbon', '1 maraschino cherry'], recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url="https://www.facebook.com/"'},
 {name:'ROSEMARY PEACH MAPLE LEAF COCKTAIL', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'fruity', strength:'xxx', ingredients: ['1 scant teaspoon simple syrup', '2 dashes Angostura Bitters, plus more to taste', '1 medium sized slice orange peel, including pith', '2 ounces good-quality rye or bourbon', '1 maraschino cherry'], recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url=""'},
@@ -76,7 +75,7 @@ $(document).ready(function() {
   }
 
 $( '.surprise' ).click(function(event) {
-  var number = Math.floor (Math.random()* (drinkRecipes.length));
+  var number = Math.floor (Math.random() * (drinkRecipes.length));
   console.log(number);
 });
 
