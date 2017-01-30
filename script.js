@@ -1,7 +1,6 @@
-var getRandomInt = function(min, max) {
-  return Math.floor(Math.random() * (drinkRecipes.length));
-}
-
+// var getRandomInt = function(min, max) {
+//   return Math.floor(Math.random() * (drinkRecipes.length));
+// }
 
 
 var drinkRecipes = [
@@ -290,16 +289,17 @@ var checkRecipe = function() {
 }
 
 $( '.surprise' ).click(function(event) {
-  var surpriseMe = function() {
-  var randNum = getRandomInt();
-
-  };
+  var number = Math.floor (Math.random()* (drinkRecipes.length));
+  console.log(number);
+    $('.drinkTitle').html(drinkRecipes[number].name);
+    $('.spiritsList').html(drinkRecipes[number].drinkType);
+    $('.flavorList').html(drinkRecipes[number].flavor);
+    $('.ingredients').html(drinkRecipes[number].ingredients);
+    $('.recipeText').html(drinkRecipes[number].recipe);
 });
 
 
 checkRecipe ();
-
-
 
 
   $(".alc").click(function(event) {
