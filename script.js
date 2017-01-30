@@ -22,15 +22,29 @@ var drinkRecipes = [
 {name:'BLUEBERRY MOJITIS', image:'src="Images/mojito.jpg"', drinkType: 'rum', flavor: 'fruity', strength:'xxx', ingredients: '8 blueberries (fresh or frozen and thawed), plus more for serving 2 tablespoons (1 ounce) fresh squeezed lime juice 2 teaspoons sugar 8 fresh mint leaves, plus more for serving 1/4 cup (2 ounces) white rum Ice 2 tablespoons (1 ounce) club soda Lime slice for serving', recipe: 'Add blueberries, lime juice, sugar and eight mint leaves to a cocktail shaker. Use the end of a wooden spoon or cocktail muddler to bash (or muddle) the mint into the lime juice and sugar. This releases oils from the mint, breaks up the blueberries and helps the sugar dissolve into the lime juice.<br><br>Add rum, stir well then pour into a glass filled with ice, leaving about an inch of room then top with club soda. Garnish with extra blueberries, mint leaves and a lime slice.', music: 'url=""'},
 {name:'ROSEMARY TANGERINE COOLER', image:'src="Images/mojito.jpg"', drinkType: 'rum', flavor: 'botanical', strength:'xxx', ingredients: '8 blueberries (fresh or frozen and thawed), plus more for serving 2 tablespoons (1 ounce) fresh squeezed lime juice 2 teaspoons sugar 8 fresh mint leaves, plus more for serving 1/4 cup (2 ounces) white rum Ice 2 tablespoons (1 ounce) club soda Lime slice for serving', recipe: 'Add blueberries, lime juice, sugar and eight mint leaves to a cocktail shaker. Use the end of a wooden spoon or cocktail muddler to bash (or muddle) the mint into the lime juice and sugar. This releases oils from the mint, breaks up the blueberries and helps the sugar dissolve into the lime juice.<br><br>Add rum, stir well then pour into a glass filled with ice, leaving about an inch of room then top with club soda. Garnish with extra blueberries, mint leaves and a lime slice.', music: 'url=""'},
 {name:'THE PAINKILLER', image:'src="Images/mojito.jpg"', drinkType: 'rum', flavor: 'smoky', strength:'xxx', ingredients: '8 blueberries (fresh or frozen and thawed), plus more for serving 2 tablespoons (1 ounce) fresh squeezed lime juice 2 teaspoons sugar 8 fresh mint leaves, plus more for serving 1/4 cup (2 ounces) white rum Ice 2 tablespoons (1 ounce) club soda Lime slice for serving', recipe: 'Add blueberries, lime juice, sugar and eight mint leaves to a cocktail shaker. Use the end of a wooden spoon or cocktail muddler to bash (or muddle) the mint into the lime juice and sugar. This releases oils from the mint, breaks up the blueberries and helps the sugar dissolve into the lime juice.<br><br>Add rum, stir well then pour into a glass filled with ice, leaving about an inch of room then top with club soda. Garnish with extra blueberries, mint leaves and a lime slice.', music: 'url=""'},
-{name:'SPICY GRAPEFRUIT RUM PUNCH', image:'src="Images/mojito.jpg"', drinkType: 'rum', flavor: 'spicy', strength:'xxx', ingredients: '8 blueberries (fresh or frozen and thawed), plus more for serving 2 tablespoons (1 ounce) fresh squeezed lime juice 2 teaspoons sugar 8 fresh mint leaves, plus more for serving 1/4 cup (2 ounces) white rum Ice 2 tablespoons (1 ounce) club soda Lime slice for serving', recipe: 'Add blueberries, lime juice, sugar and eight mint leaves to a cocktail shaker. Use the end of a wooden spoon or cocktail muddler to bash (or muddle) the mint into the lime juice and sugar. This releases oils from the mint, breaks up the blueberries and helps the sugar dissolve into the lime juice.<br><br>Add rum, stir well then pour into a glass filled with ice, leaving about an inch of room then top with club soda. Garnish with extra blueberries, mint leaves and a lime slice.', music: 'url=""'},
+{name:'SPICY GRAPEFRUIT RUM', image:'src="Images/mojito.jpg"', drinkType: 'rum', flavor: 'spicy', strength:'xxx', ingredients: '8 blueberries (fresh or frozen and thawed), plus more for serving 2 tablespoons (1 ounce) fresh squeezed lime juice 2 teaspoons sugar 8 fresh mint leaves, plus more for serving 1/4 cup (2 ounces) white rum Ice 2 tablespoons (1 ounce) club soda Lime slice for serving', recipe: 'Add blueberries, lime juice, sugar and eight mint leaves to a cocktail shaker. Use the end of a wooden spoon or cocktail muddler to bash (or muddle) the mint into the lime juice and sugar. This releases oils from the mint, breaks up the blueberries and helps the sugar dissolve into the lime juice.<br><br>Add rum, stir well then pour into a glass filled with ice, leaving about an inch of room then top with club soda. Garnish with extra blueberries, mint leaves and a lime slice.', music: 'url=""'},
 {name:'PINA COLADA', image:'src="Images/mojito.jpg"', drinkType: 'rum', flavor: 'frosty', strength:'xxx', ingredients: '8 blueberries (fresh or frozen and thawed), plus more for serving 2 tablespoons (1 ounce) fresh squeezed lime juice 2 teaspoons sugar 8 fresh mint leaves, plus more for serving 1/4 cup (2 ounces) white rum Ice 2 tablespoons (1 ounce) club soda Lime slice for serving', recipe: 'Add blueberries, lime juice, sugar and eight mint leaves to a cocktail shaker. Use the end of a wooden spoon or cocktail muddler to bash (or muddle) the mint into the lime juice and sugar. This releases oils from the mint, breaks up the blueberries and helps the sugar dissolve into the lime juice.<br><br>Add rum, stir well then pour into a glass filled with ice, leaving about an inch of room then top with club soda. Garnish with extra blueberries, mint leaves and a lime slice.', music: 'url=""'},
 
-{name:'Paloma', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'fruity', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'},
+{name:'TQUILA SPRITZER', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'sour', strength:'xxx', ingredients: 'Kosher salt1 grapefruit wedge ¼ cup fresh grapefruit juice 1 tablespoon fresh lime juice 1 teaspoon sugar ¼ cup mescal or tequila ¼ cup club soda', recipe: 'Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off with club soda. Garnish with grapefruit wedge.', music: 'url=""'},
+{name:'PALOMA', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'fruity', strength:'xxx', ingredients: 'Kosher salt1 grapefruit wedge ¼ cup fresh grapefruit juice 1 tablespoon fresh lime juice 1 teaspoon sugar ¼ cup mescal or tequila ¼ cup club soda', recipe: 'Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off with club soda. Garnish with grapefruit wedge.', music: 'url=""'},
+{name:'BLACKBERRY SAGE SMASH', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'botanical', strength:'xxx', ingredients: 'Kosher salt1 grapefruit wedge ¼ cup fresh grapefruit juice 1 tablespoon fresh lime juice 1 teaspoon sugar ¼ cup mescal or tequila ¼ cup club soda', recipe: 'Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off with club soda. Garnish with grapefruit wedge.', music: 'url=""'},
+{name:'MEZCAL MARGERITA', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'smoky', strength:'xxx', ingredients: 'Kosher salt1 grapefruit wedge ¼ cup fresh grapefruit juice 1 tablespoon fresh lime juice 1 teaspoon sugar ¼ cup mescal or tequila ¼ cup club soda', recipe: 'Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off with club soda. Garnish with grapefruit wedge.', music: 'url=""'},
+{name:'HABENERO TEQUILA FIZZ', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'spicy', strength:'xxx', ingredients: 'Kosher salt1 grapefruit wedge ¼ cup fresh grapefruit juice 1 tablespoon fresh lime juice 1 teaspoon sugar ¼ cup mescal or tequila ¼ cup club soda', recipe: 'Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off with club soda. Garnish with grapefruit wedge.', music: 'url=""'},
+{name:'SLUSHY TEQUILA SUNRISE', image:'src="Images/paloma.jpg"', drinkType: 'tequila', flavor: 'frosty', strength:'xxx', ingredients: 'Kosher salt1 grapefruit wedge ¼ cup fresh grapefruit juice 1 tablespoon fresh lime juice 1 teaspoon sugar ¼ cup mescal or tequila ¼ cup club soda', recipe: 'Pour some kosher salt on a plate. Rub half of rim of a highball glass with grapefruit wedge; dip rim of glass in salt. Combine grapefruit juice, lime juice, and sugar in glass; stir until sugar is dissolved. Stir in mescal, add ice, and top off with club soda. Garnish with grapefruit wedge.', music: 'url=""'},
 
-{name:'Peach Bellini', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'fruity', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'},
+{name:'AIR MAIL', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'sour', strength:'xxx', ingredients: '2 ripe peaches, seeded and diced 1 tablespoon freshly squeezed lemon juice 1 teaspoon sugar 1 bottle chilled prosecco sparkling wine', recipe: 'Place the peaches, lemon juice, and sugar in the bowl of a food processor fitted with a steel blade and process until smooth. Press the mixture through a sieve and discard the peach solids in the sieve. Place 2 tablespoons of the peach puree into each Champagne glass and fill with cold prosecco. Serve immediately.' , music: 'url=""'},
+{name:'PEACH BELLINI', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'fruity', strength:'xxx', ingredients: '2 ripe peaches, seeded and diced 1 tablespoon freshly squeezed lemon juice 1 teaspoon sugar 1 bottle chilled prosecco sparkling wine', recipe: 'Place the peaches, lemon juice, and sugar in the bowl of a food processor fitted with a steel blade and process until smooth. Press the mixture through a sieve and discard the peach solids in the sieve. Place 2 tablespoons of the peach puree into each Champagne glass and fill with cold prosecco. Serve immediately.' , music: 'url=""'},
+{name:'THYME GRAPEFRUIT CHAMPAGNE PUNCH', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'botanical', strength:'xxx', ingredients: '2 ripe peaches, seeded and diced 1 tablespoon freshly squeezed lemon juice 1 teaspoon sugar 1 bottle chilled prosecco sparkling wine', recipe: 'Place the peaches, lemon juice, and sugar in the bowl of a food processor fitted with a steel blade and process until smooth. Press the mixture through a sieve and discard the peach solids in the sieve. Place 2 tablespoons of the peach puree into each Champagne glass and fill with cold prosecco. Serve immediately.' , music: 'url=""'},
+{name:'BLACK VELVET', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'smoky', strength:'xxx', ingredients: '2 ripe peaches, seeded and diced 1 tablespoon freshly squeezed lemon juice 1 teaspoon sugar 1 bottle chilled prosecco sparkling wine', recipe: 'Place the peaches, lemon juice, and sugar in the bowl of a food processor fitted with a steel blade and process until smooth. Press the mixture through a sieve and discard the peach solids in the sieve. Place 2 tablespoons of the peach puree into each Champagne glass and fill with cold prosecco. Serve immediately.' , music: 'url=""'},
+{name:'PINK PEPPERCORN CHAMPAGNE PUNCH', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'spicy', strength:'xxx', ingredients: '2 ripe peaches, seeded and diced 1 tablespoon freshly squeezed lemon juice 1 teaspoon sugar 1 bottle chilled prosecco sparkling wine', recipe: 'Place the peaches, lemon juice, and sugar in the bowl of a food processor fitted with a steel blade and process until smooth. Press the mixture through a sieve and discard the peach solids in the sieve. Place 2 tablespoons of the peach puree into each Champagne glass and fill with cold prosecco. Serve immediately.' , music: 'url=""'},
+{name:'FROSTY FRENCH 75', image:'src="Images/drank.jpg"', drinkType: 'champagne', flavor: 'frosty', strength:'xxx', ingredients: '2 ripe peaches, seeded and diced 1 tablespoon freshly squeezed lemon juice 1 teaspoon sugar 1 bottle chilled prosecco sparkling wine', recipe: 'Place the peaches, lemon juice, and sugar in the bowl of a food processor fitted with a steel blade and process until smooth. Press the mixture through a sieve and discard the peach solids in the sieve. Place 2 tablespoons of the peach puree into each Champagne glass and fill with cold prosecco. Serve immediately.' , music: 'url=""'},
 
-{name:'Gin Fizz', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'botanical', strength:'xxx', ingredients: 'list items goes here', recipe: 'Recipe goes heres', music: 'url=""'}
-
+{name:'RHUBARB GIN SOUR', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'sour', strength:'xxx', ingredients: '1 oz Club soda 2 oz Plymouth gin 1 oz Lemon juice .75 oz Simple syrup 1  Egg white (about .5 oz)', recipe: 'Add the club soda to a Fizz or Collins glass and set aside. Add the remaining ingredients to a shaker and shake without ice for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into the prepared glass.', music: 'url=""'},
+{name:'GRILLED CHERRY SOUR', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'fruity', strength:'xxx', ingredients: '1 oz Club soda 2 oz Plymouth gin 1 oz Lemon juice .75 oz Simple syrup 1  Egg white (about .5 oz)', recipe: 'Add the club soda to a Fizz or Collins glass and set aside. Add the remaining ingredients to a shaker and shake without ice for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into the prepared glass.', music: 'url=""'},
+{name:'SAGE HONEY GIN FIZZ', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'botanical', strength:'xxx', ingredients: '1 oz Club soda 2 oz Plymouth gin 1 oz Lemon juice .75 oz Simple syrup 1  Egg white (about .5 oz)', recipe: 'Add the club soda to a Fizz or Collins glass and set aside. Add the remaining ingredients to a shaker and shake without ice for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into the prepared glass.', music: 'url=""'},
+{name:'CEDAR GIN RICKY', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'smoky', strength:'xxx', ingredients: '1 oz Club soda 2 oz Plymouth gin 1 oz Lemon juice .75 oz Simple syrup 1  Egg white (about .5 oz)', recipe: 'Add the club soda to a Fizz or Collins glass and set aside. Add the remaining ingredients to a shaker and shake without ice for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into the prepared glass.', music: 'url=""'},
+{name:'BOLLYWOOD MARTINI', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'spicy', strength:'xxx', ingredients: '1 oz Club soda 2 oz Plymouth gin 1 oz Lemon juice .75 oz Simple syrup 1  Egg white (about .5 oz)', recipe: 'Add the club soda to a Fizz or Collins glass and set aside. Add the remaining ingredients to a shaker and shake without ice for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into the prepared glass.', music: 'url=""'},
+{name:'GIN RICKY SLUSHY', image:'src="Images/ginDrink.jpg"', drinkType: 'gin', flavor: 'frosty', strength:'xxx', ingredients: '1 oz Club soda 2 oz Plymouth gin 1 oz Lemon juice .75 oz Simple syrup 1  Egg white (about .5 oz)', recipe: 'Add the club soda to a Fizz or Collins glass and set aside. Add the remaining ingredients to a shaker and shake without ice for about 10 seconds. Add 3 or 4 ice cubes and shake very well. Double-strain into the prepared glass.', music: 'url=""'},
 ]
 
 $(document).ready(function() {
@@ -81,9 +95,7 @@ var checkRecipe = function() {
       $('.ingredients').html(drinkRecipes[5].ingredients);
       $('.recipeText').html(drinkRecipes[5].recipe);
     }
-  }
-
-  if(drinkType === 'vodka') {
+  } if(drinkType === 'vodka') {
     if(flavor === 'sour') {
       $('.drinkTitle').html(drinkRecipes[6].name);
       $('.spiritsList').html(drinkRecipes[6].drinkType);
@@ -121,8 +133,7 @@ var checkRecipe = function() {
       $('.ingredients').html(drinkRecipes[11].ingredients);
       $('.recipeText').html(drinkRecipes[11].recipe);
     }
-  }
-  if(drinkType === 'rum') {
+  } if(drinkType === 'rum') {
     if(flavor === 'sour') {
       $('.drinkTitle').html(drinkRecipes[12].name);
       $('.spiritsList').html(drinkRecipes[12].drinkType);
@@ -160,23 +171,134 @@ var checkRecipe = function() {
       $('.ingredients').html(drinkRecipes[17].ingredients);
       $('.recipeText').html(drinkRecipes[17].recipe);
     }
-
+  } if(drinkType === 'tequila') {
+    if(flavor === 'sour') {
+      $('.drinkTitle').html(drinkRecipes[18].name);
+      $('.spiritsList').html(drinkRecipes[18].drinkType);
+      $('.flavorList').html(drinkRecipes[18].flavor);
+      $('.ingredients').html(drinkRecipes[18].ingredients);
+      $('.recipeText').html(drinkRecipes[18].recipe);
+    } else if (flavor === 'fruity') {
+      $('.drinkTitle').html(drinkRecipes[19].name);
+      $('.spiritsList').html(drinkRecipes[19].drinkType);
+      $('.flavorList').html(drinkRecipes[19].flavor);
+      $('.ingredients').html(drinkRecipes[19].ingredients);
+      $('.recipeText').html(drinkRecipes[19].recipe);
+    } else if (flavor === 'botanical') {
+      $('.drinkTitle').html(drinkRecipes[20].name);
+      $('.spiritsList').html(drinkRecipes[20].drinkType);
+      $('.flavorList').html(drinkRecipes[20].flavor);
+      $('.ingredients').html(drinkRecipes[20].ingredients);
+      $('.recipeText').html(drinkRecipes[20].recipe); 
+    } else if(flavor === 'smoky') {
+      $('.drinkTitle').html(drinkRecipes[21].name);
+      $('.spiritsList').html(drinkRecipes[21].drinkType);
+      $('.flavorList').html(drinkRecipes[21].flavor);
+      $('.ingredients').html(drinkRecipes[21].ingredients);
+      $('.recipeText').html(drinkRecipes[21].recipe);
+    } else if (flavor === 'spicy') {
+      $('.drinkTitle').html(drinkRecipes[22].name);
+      $('.spiritsList').html(drinkRecipes[22].drinkType);
+      $('.flavorList').html(drinkRecipes[22].flavor);
+      $('.ingredients').html(drinkRecipes[22].ingredients);
+      $('.recipeText').html(drinkRecipes[22].recipe);
+    } else if (flavor == 'frosty') {
+      $('.drinkTitle').html(drinkRecipes[23].name);
+      $('.spiritsList').html(drinkRecipes[23].drinkType);
+      $('.flavorList').html(drinkRecipes[23].flavor);
+      $('.ingredients').html(drinkRecipes[23].ingredients);
+      $('.recipeText').html(drinkRecipes[23].recipe);
+    }
+  } if(drinkType === 'champagne') {
+    if(flavor === 'sour') {
+      $('.drinkTitle').html(drinkRecipes[24].name);
+      $('.spiritsList').html(drinkRecipes[24].drinkType);
+      $('.flavorList').html(drinkRecipes[24].flavor);
+      $('.ingredients').html(drinkRecipes[24].ingredients);
+      $('.recipeText').html(drinkRecipes[24].recipe);
+    } else if (flavor === 'fruity') {
+      $('.drinkTitle').html(drinkRecipes[25].name);
+      $('.spiritsList').html(drinkRecipes[25].drinkType);
+      $('.flavorList').html(drinkRecipes[25].flavor);
+      $('.ingredients').html(drinkRecipes[25].ingredients);
+      $('.recipeText').html(drinkRecipes[25].recipe);
+    } else if (flavor === 'botanical') {
+      $('.drinkTitle').html(drinkRecipes[26].name);
+      $('.spiritsList').html(drinkRecipes[26].drinkType);
+      $('.flavorList').html(drinkRecipes[26].flavor);
+      $('.ingredients').html(drinkRecipes[26].ingredients);
+      $('.recipeText').html(drinkRecipes[26].recipe); 
+    } else if(flavor === 'smoky') {
+      $('.drinkTitle').html(drinkRecipes[27].name);
+      $('.spiritsList').html(drinkRecipes[27].drinkType);
+      $('.flavorList').html(drinkRecipes[27].flavor);
+      $('.ingredients').html(drinkRecipes[27].ingredients);
+      $('.recipeText').html(drinkRecipes[27].recipe);
+    } else if (flavor === 'spicy') {
+      $('.drinkTitle').html(drinkRecipes[28].name);
+      $('.spiritsList').html(drinkRecipes[28].drinkType);
+      $('.flavorList').html(drinkRecipes[28].flavor);
+      $('.ingredients').html(drinkRecipes[28].ingredients);
+      $('.recipeText').html(drinkRecipes[28].recipe);
+    } else if (flavor == 'frosty') {
+      $('.drinkTitle').html(drinkRecipes[29].name);
+      $('.spiritsList').html(drinkRecipes[29].drinkType);
+      $('.flavorList').html(drinkRecipes[29].flavor);
+      $('.ingredients').html(drinkRecipes[29].ingredients);
+      $('.recipeText').html(drinkRecipes[29].recipe);
+    }
+  } if(drinkType === 'gin') {
+    if(flavor === 'sour') {
+      $('.drinkTitle').html(drinkRecipes[30].name);
+      $('.spiritsList').html(drinkRecipes[30].drinkType);
+      $('.flavorList').html(drinkRecipes[30].flavor);
+      $('.ingredients').html(drinkRecipes[30].ingredients);
+      $('.recipeText').html(drinkRecipes[30].recipe);
+    } else if (flavor === 'fruity') {
+      $('.drinkTitle').html(drinkRecipes[31].name);
+      $('.spiritsList').html(drinkRecipes[31].drinkType);
+      $('.flavorList').html(drinkRecipes[31].flavor);
+      $('.ingredients').html(drinkRecipes[31].ingredients);
+      $('.recipeText').html(drinkRecipes[31].recipe);
+    } else if (flavor === 'botanical') {
+      $('.drinkTitle').html(drinkRecipes[32].name);
+      $('.spiritsList').html(drinkRecipes[32].drinkType);
+      $('.flavorList').html(drinkRecipes[32].flavor);
+      $('.ingredients').html(drinkRecipes[32].ingredients);
+      $('.recipeText').html(drinkRecipes[32].recipe); 
+    } else if(flavor === 'smoky') {
+      $('.drinkTitle').html(drinkRecipes[33].name);
+      $('.spiritsList').html(drinkRecipes[33].drinkType);
+      $('.flavorList').html(drinkRecipes[33].flavor);
+      $('.ingredients').html(drinkRecipes[33].ingredients);
+      $('.recipeText').html(drinkRecipes[33].recipe);
+    } else if (flavor === 'spicy') {
+      $('.drinkTitle').html(drinkRecipes[34].name);
+      $('.spiritsList').html(drinkRecipes[34].drinkType);
+      $('.flavorList').html(drinkRecipes[34].flavor);
+      $('.ingredients').html(drinkRecipes[34].ingredients);
+      $('.recipeText').html(drinkRecipes[34].recipe);
+    } else if (flavor == 'frosty') {
+      $('.drinkTitle').html(drinkRecipes[35].name);
+      $('.spiritsList').html(drinkRecipes[35].drinkType);
+      $('.flavorList').html(drinkRecipes[35].flavor);
+      $('.ingredients').html(drinkRecipes[35].ingredients);
+      $('.recipeText').html(drinkRecipes[35].recipe);
+    }
+  }
 }
 
-// var surpriseMe = function() {
-//   var randNum = getRandomInt(1, 3);
-// }
+$( '.surprise' ).click(function() {
+  console.log('It Works!');
+});
 
-// var generateComputerChoice = function() {
-//   var randNum = getRandomInt(1, 3);
-//   if(randNum === 1) {
-//     computerChoice = 'rock';
-//   } else if (randNum === 2) {
-//     computerChoice = 'paper';
-//   } else {
-//     computerChoice = 'scissors';
-//   }
-// }
+var surpriseMe = function() {
+  var randNum = getRandomInt();
+}
+
+var generateComputerChoice = function() {
+  
+}
 
 checkRecipe ();
 
