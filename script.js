@@ -3,8 +3,9 @@ var getRandomInt = function(min, max) {
 }
 
 
+
 var drinkRecipes = [
-{name:'old fashioned', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'sour', strength:'xxx', ingredients: '1 scant teaspoon simple syrup 2 dashes Angostura Bitters, plus more to taste 1 half dollar–sized slice orange peel, including pith 2 ounces good-quality rye or bourbon 1 maraschino cherry', recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url=""'},
+{name:'OLD FASHIONED', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'sour', strength:'xxx', ingredients: '1 scant teaspoon simple syrup 2 dashes Angostura Bitters, plus more to taste 1 half dollar–sized slice orange peel, including pith 2 ounces good-quality rye or bourbon 1 maraschino cherry', recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url=""'},
 {name:'ROSEMARY PEACH MAPLE LEAF COCKTAIL', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'fruity', strength:'xxx', ingredients: '1 scant teaspoon simple syrup 2 dashes Angostura Bitters, plus more to taste 1 half dollar–sized slice orange peel, including pith 2 ounces good-quality rye or bourbon 1 maraschino cherry', recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url=""'},
 {name:'BLACKBERRY SMASH', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'botanical', strength:'xxx', ingredients: '1 scant teaspoon simple syrup 2 dashes Angostura Bitters, plus more to taste 1 half dollar–sized slice orange peel, including pith 2 ounces good-quality rye or bourbon 1 maraschino cherry', recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url=""'},
 {name:'SMOKEY WHISKEY SOUR', image:'src="Images/drank.jpg"', drinkType: 'whiskey', flavor: 'smoky', strength:'xxx', ingredients: '1 scant teaspoon simple syrup 2 dashes Angostura Bitters, plus more to taste 1 half dollar–sized slice orange peel, including pith 2 ounces good-quality rye or bourbon 1 maraschino cherry', recipe: 'In old-fashioned glass, combine simple syrup and bitters. Fill glass halfway with ice, then stir about a dozen times. Add enough ice to fill glass. <br> <br> Squeeze orange peel over glass to extract oils, add peel to glass, and add whiskey. Stir just until drink is cold and alcoholic bite has softened, about a dozen times. Garnish with cherry, swizzle stick, and straw.', music: 'url=""'},
@@ -288,17 +289,13 @@ var checkRecipe = function() {
   }
 }
 
-$( '.surprise' ).click(function() {
-  console.log('It Works!');
+$( '.surprise' ).click(function(event) {
+  var surpriseMe = function() {
+  var randNum = getRandomInt();
+
+  };
 });
 
-var surpriseMe = function() {
-  var randNum = getRandomInt();
-}
-
-var generateComputerChoice = function() {
-  
-}
 
 checkRecipe ();
 
