@@ -95,5 +95,9 @@ $(".taste").click(function(event) {
   var flavorType = elem.attr('flavor');
 
   localStorage.setItem('flavorType', flavorType);
-  window.location = 'recipe.html'
+  // unhide gif! 
+  // set for a time out window.set time out or javascript method. 
+  // function that is one of the arguments of the timeout. the funciton is window.location =
+  window.location = 'loader.html';
+
 });
