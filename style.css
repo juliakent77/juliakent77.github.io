@@ -190,12 +190,25 @@ header h3 {
   font-size: 20px;
 }
 
-/*.spiritsList {
-  display: inline;
+h4 {
+  font-family: 'Unna', serif;
+  letter-spacing: 2px;
+  font-size: 26px;
+  padding-top: 5px;
+  color: #13358C;
+
 }
 
-.flavorList {
-  display: inline;
-}*/
+.gif {
+  width: 50%;
+  max-width: 150px;
+}
 
-/*font-family: 'Unna', serif;*/
+.gifTitle {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.loaderPage {
+/*  background-color: #F0534F;*/
+}

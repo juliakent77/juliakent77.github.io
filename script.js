@@ -62,7 +62,7 @@ var renderRecipe = function(recipeObj) {
   $('.flavorList').html(recipeObj.flavor);
   $('.recipeText').html(recipeObj.recipe);
   $('#drinkImage').attr('src', recipeObj.image);
-  $('#muzak').attr('href', recipeObj.music);
+  // $('#muzak').attr('href', recipeObj.music);
 
   for(var i = 0; i < recipeObj.ingredients.length; i++) {
     var ingredient = recipeObj.ingredients[i];
