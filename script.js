@@ -79,7 +79,7 @@ $( '.surprise' ).click(function(event) {
   localStorage.setItem('drinkType', recipeToRender.drinkType);
   localStorage.setItem('flavorType', recipeToRender.flavor);
 
-  window.location = 'recipe.html'
+  window.location = 'loader.html';
 });
 
 $(".alc").click(function(event) {
@@ -95,9 +95,6 @@ $(".taste").click(function(event) {
   var flavorType = elem.attr('flavor');
 
   localStorage.setItem('flavorType', flavorType);
-  // unhide gif! 
-  // set for a time out window.set time out or javascript method. 
-  // function that is one of the arguments of the timeout. the funciton is window.location =
   window.location = 'loader.html';
 
 });
