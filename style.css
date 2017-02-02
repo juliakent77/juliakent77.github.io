@@ -9,6 +9,7 @@ button {
 }
 
 .drink-options {
+  cursor: pointer;
 }
 
 .square {
